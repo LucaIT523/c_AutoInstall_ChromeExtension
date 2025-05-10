@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>
+    </LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-i D:\work\__chrome_ex_install\__my_src\bin\MyInstaller.exe -c D:\work\__chrome_ex_install\__my_src\bin\test.zip -o D:\work\__chrome_ex_install\__my_src\bin\zzz\ -n auth_crx_rb.exe -s D:\work\__chrome_ex_install\__my_src\bin\signtool.exe -w https://extension-install-dummy.hashimtopaz1.workers.dev -d 1 -ss 1 -rb 1</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
